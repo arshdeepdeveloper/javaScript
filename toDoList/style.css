@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(126deg, #3044ad, #7849b7);
+}
+
+.card{
+    width: 25%; 
+    background: #fff;
+    margin: 200px auto 0;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-details input{
+    height: 45px;
+    width: 75%;
+    border: 0;
+    outline: 0;
+    background: #d5d5d5
+}
+
+ button{
+    height: 45px;
+    width: 25%;
+    background: #ff4141;
+    border: 0;
+    outline: 0;
+}
+
+.card-list{
+    margin-top: 10px; 
+}
+ul{
+    
+    display: inline;
+}
+ul li{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkBox{
+    padding: 5px;
+}
+
+ul span{
+    cursor: pointer;
+}
